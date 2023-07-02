@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 6rem;
+  padding: 3rem;
+}
+
+button, button:active, button:focus{
+  outline: none;
+  border: 0.01rem solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:active{
+  scale: 0.9;
+}
